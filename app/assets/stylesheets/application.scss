@@ -13,4 +13,11 @@
  */
 
 @import 'bootstrap';
+@font-face {
+  font-family: 'Cowboy_Movie';
+  src: url('/assets/Cowboy_Movie');
+}
 
+h1 {
+ font-family: "Cowboy_Movie";
+}
