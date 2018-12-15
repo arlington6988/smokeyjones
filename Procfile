@@ -1,3 +1,2 @@
 export RAILS_ENV=development
-rake db:migrate
-rails s
+bundle exec rails s
