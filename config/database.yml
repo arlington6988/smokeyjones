@@ -23,4 +23,5 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: smokey_jones_official
+  host: <%= ENV['DATABASE_URL'] %> 
