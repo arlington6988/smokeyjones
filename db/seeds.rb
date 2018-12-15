@@ -5,4 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Band.create(name: 'Smokey Jones and The 3 Dollar Pistols', city: 'Atlanta, GA', description: "Paying tribute to the country music of Hank, George, Merle, Dwight, Garth, and Buck.")
+Band.create(name: 'Smokey Jones and The 3 Dollar Pistols', city: 'Atlanta, GA', description: "Honky tonk music from Hank, George, Merle, Dwight, Buck, and more.")
+
