@@ -13,11 +13,13 @@
  */
 
 @font-face {
-  font-family: 'Cowboy_Movie';
-  src: url('Cowboy_Movie');
+  font-family: 'RioGrande';
+  src: url('RioGrande.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1 {
- font-family: "Cowboy_Movie";
+h1, h2 {
+ font-family: "RioGrande";
+ text-align: center;
 }
-@import 'bootstrap';
