@@ -18,7 +18,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Durango_Western';
+  src: font-url('Durango_Western_Eroded_Demo.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, h2 {
- font-family: "RioGrande";
+ font-family: "Durango_Western";
  text-align: center;
+ color: orange;
+}
+
+h3 {
+  font-family: 'Durango_Western';
+  color: orange;
 }
