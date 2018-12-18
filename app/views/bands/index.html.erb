@@ -1,11 +1,12 @@
 <p id="notice"><%= notice %></p>
 <h1><%= @bands.first.name %></h1>
+<%= image_tag 'SmokeyJones.jpg', size: "500", class: "center" %>
 <style>
 h3 {text-align: center}
 body {background-color: black}
 </style>
 <h2><%= @bands.first.description  + ' ' + @bands.first.city %></h2>
-<%= image_tag 'SmokeyJones.jpg'%>
+
 <table>
   <thead>
     <tr>
