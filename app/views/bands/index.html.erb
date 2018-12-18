@@ -1,5 +1,12 @@
-<p id="notice"><%= notice %></p>
 <h1><%= @bands.first.name %></h1>
+<ul>
+<li>
+<%= link_to 'Shows', '#', class: "navtext" %>  
+</li>
+<li>
+<%= link_to 'Crew', '#', class: "navtext" %>
+</li>
+</ul>
 <%= image_tag 'SmokeyJones.jpg', size: "500", class: "center" %>
 <style>
 h3 {text-align: center}

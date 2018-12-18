@@ -29,6 +29,11 @@ h1, h2 {
  font-family: "Durango_Western";
  text-align: center;
  color: orange;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ margin-bottom: 0;
+ line-height: 40px;
 }
 
 h3 {
@@ -40,4 +45,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
+}
+
+.navtext {
+  display: inline;
+  text-align: center;
+  margin-top: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
 }
