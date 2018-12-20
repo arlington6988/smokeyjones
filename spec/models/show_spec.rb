@@ -8,15 +8,11 @@ describe Show, :type => :model do
     expect(subject).to be_valid
   end
 
-  it "is not valid without a venue" do 
-  end
+  it "is not valid without a venue" 
 
-  it "is not valid without a date" do 
-  end 
+  it "is not valid without a date" 
 
-  it "is not valid without a city" do 
-  end 
+  it "is not valid without a city" 
 
-  it "is not valid without a state" do 
-  end
+  it "is not valid without a state" 
 end
