@@ -12,12 +12,12 @@
   <tbody>
     <% @shows.each do |show| %>
       <tr class="navtext">
-        <td><%= show.show_date %></td>
+        <td><%= Date.parse(show.show_date.to_s).strftime('%m/%d/%Y') %></td>
         <td><%= show.show_time %></td>
         <td><%= show.venue %></td>
         <td><%= show.city %></td>
         <td><%= show.state %></td>
-        <td><%= show.show_time %></td>
+        
       </tr>
     <% end %>
   </tbody>

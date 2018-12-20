@@ -13,13 +13,24 @@
     
   <% end %>
   <div>
-  <%= form.text_field :show_date %>
+   <%= form.label :show_date, class: "navtext" %>
+   <%= form.datetime_field :show_date %>
   </div>
   <div>
+  <%= form.label :venue, class: "navtext"%>
+  <%= form.text_field :venue %>
+  </div>
+  <div>
+  <%= form.label :city, class: "navtext" %>
   <%= form.text_field :city %>
   </div>
   <div>
+  <%= form.label :state, class: "navtext"%>
   <%= form.text_field :state %>
+  </div>
+  <div>
+  <%= form.label :age_limit, class: "navtext"%>
+  <%= form.text_field :age_limit %>
   </div>
   <div class="actions">
     <%= form.submit %>
